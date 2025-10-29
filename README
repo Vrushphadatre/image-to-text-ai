@@ -1,0 +1,30 @@
+# 🖼️ Image-to-Text AI Model (English + Marathi)
+
+This project uses **Google Gemini API** to analyze accident scene images and generate meaningful text summaries in **English and Marathi**.  
+It can describe accident scenes and provide short rescue instructions in simple language.
+
+---
+
+## 🚀 Features
+- Accepts one or multiple image URLs.
+- Describes accident scene in English.
+- Translates output to Marathi automatically.
+- Uses Gemini-2.5-Pro for multimodal image reasoning.
+
+---
+
+## 🧠 Tech Stack
+- Python  
+- Google Gemini API  
+- Google Translate API  
+- Pillow  
+- dotenv for API key management  
+
+---
+
+## ⚙️ Setup
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/<your-username>/image-to-text-ai.git
+cd image-to-text-ai
